@@ -25,7 +25,7 @@ ORDER BY [Toplam Satış] DESC;
 
 ----------------------------------------------------------------------------------------------------------------    
 
------Ən gəlirli bölgələr və dövlətlər (Region və State/Province üzrə)
+-----Ən gəlirli bölgələr və ştatlar (Region və State/Province üzrə)
 SELECT 
     [Region],
     [State/Province],
@@ -64,7 +64,7 @@ ORDER BY [Ortalama Çatdırılma Günü] ASC;
 
 ---------------------------------------------------------------------------------------------------------------
 
-  -----Müştəri kateqoriyalarına görə ümumi satış və müştəri başına ortalama xərc (VIP, Daimi, Az Aktiv/New Customer)
+  -----Müştəri kateqoriyalarına görə ümumi satış və müştəri başına ortalama xərc
 SELECT 
     MusteriTipi AS [Müştəri Kateqoriyası],
     COUNT([Customer ID]) AS [Müştəri Sayı],
